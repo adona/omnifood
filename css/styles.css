@@ -42,7 +42,6 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-
 * {
   margin: 0;
   padding: 0;
@@ -58,6 +57,52 @@ body {
   color: #555;
 }
 
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.section-header {
+  background-color: #fdf2e9;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.6rem;
+}
+
+.logo {
+  width: 24rem;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 9.6rem;
+}
+
+.header-navigation-main,
+.header-navigation-account {
+  display: flex;
+}
+
+.header-navigation a {
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.sign-up {
+  border: 1px solid #6f6f6f;
+  border-radius: 9px;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -67,8 +112,6 @@ body {
 }
 
 .hero-container {
-  max-width: 130rem;
-  margin: 0 auto;
   padding: 9.6rem 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
