@@ -544,3 +544,72 @@
     url("../img/eating.jpg");
   background-size: cover;
 }
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.section-footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.footer-grid {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer .list {
+  gap: 2.4rem;
+}
+
+.footer-nav-category {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #767676;
+  text-decoration: none;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:active {
+  color: #555;
+}
+
+.address-box {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
