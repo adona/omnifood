@@ -70,6 +70,11 @@ body {
   color: #555;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 /**************************/
 /* GENERAL REUSABLE COMPONENTS */
 /**************************/
@@ -146,6 +151,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -154,6 +160,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .btn-full:link,
