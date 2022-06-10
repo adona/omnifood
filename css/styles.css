@@ -83,7 +83,7 @@
 .hero-buttons {
   display: flex;
   gap: 1.6rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 8rem;
 }
 
 .hero-img {
@@ -94,7 +94,6 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
-  margin-top: 8rem;
 }
 
 .hero-customers {
@@ -324,8 +323,10 @@
 }
 
 .gallery {
+  display: grid;
   gap: 1.6rem;
   padding: 1.6rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .gallery-item {
@@ -481,8 +482,6 @@
 }
 
 .cta-heading {
-  font-size: 4.4rem;
-  line-height: 1.2;
   margin-bottom: 3.2rem;
 }
 
@@ -543,6 +542,7 @@
     ),
     url("../img/eating.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 /**************************/
