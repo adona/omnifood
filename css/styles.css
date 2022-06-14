@@ -3,6 +3,7 @@
 /**************************/
 
 .section-header {
+  position: relative;
   background-color: #fdf2e9;
 }
 
@@ -57,6 +58,10 @@
   background-color: #cf711f;
 }
 
+.header-navigation-mobile,
+.header-navigation-mobile .icons8-close {
+  display: none;
+}
 /**************************/
 /* HERO SECTION */
 /**************************/
