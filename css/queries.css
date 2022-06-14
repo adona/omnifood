@@ -176,3 +176,41 @@
     display: block;
   }
 }
+
+/**************************/
+/* BELOW 704px (smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .meal-diets {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .pricing-plan {
+    width: 50%;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .section-footer .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  .section-footer .logo-col,
+  .section-footer .contact-col {
+    grid-column: span 3;
+  }
+}
