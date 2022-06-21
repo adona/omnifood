@@ -12,6 +12,11 @@
       rel="stylesheet"
     />
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -27,15 +32,25 @@
 
         <nav class="header-navigation">
           <ul class="header-navigation-main">
-            <li><a class="header-nav-link" href="#">How it works</a></li>
-            <li><a class="header-nav-link" href="#">Meals</a></li>
-            <li><a class="header-nav-link" href="#">Testimonials</a></li>
-            <li><a class="header-nav-link" href="#">Pricing</a></li>
+            <li>
+              <a class="header-nav-link" href="#section-how">How it works</a>
+            </li>
+            <li><a class="header-nav-link" href="#section-meals">Meals</a></li>
+            <li>
+              <a class="header-nav-link" href="#section-testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a class="header-nav-link" href="#section-pricing">Pricing</a>
+            </li>
           </ul>
           <ul class="header-navigation-account">
             <li><a class="header-nav-link" href="#">Log in</a></li>
             <li>
-              <a class="header-nav-link sign-up" href="#">Try for Free</a>
+              <a class="header-nav-link sign-up" href="#section-cta"
+                >Try for Free</a
+              >
             </li>
           </ul>
         </nav>
@@ -48,7 +63,7 @@
     </header>
 
     <main>
-      <section class="section-hero">
+      <section class="section-hero" id="section-hero">
         <div class="hero-container container">
           <div class="hero-text">
             <h1 class="heading-primary">
@@ -60,8 +75,10 @@
               nutritional needs.
             </p>
             <div class="hero-buttons">
-              <a href="#" class="btn btn-full">Start eating well</a>
-              <a href="#" class="btn btn-outline">Learn more &downarrow;</a>
+              <a href="#section-cta" class="btn btn-full">Start eating well</a>
+              <a href="#section-how" class="btn btn-outline"
+                >Learn more &downarrow;</a
+              >
             </div>
             <div class="hero-delivered">
               <div class="hero-customers">
@@ -81,7 +98,7 @@
         </div>
       </section>
 
-      <section class="section-featured">
+      <section class="section-featured" id="section-featured">
         <div class="container">
           <h2 class="featured-heading">As featured in</h2>
           <div class="featured-logos">
@@ -100,7 +117,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="section-how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -152,7 +169,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="section-meals">
         <div class="container">
           <div class="center-text">
             <span class="subheading">Meals</span>
@@ -268,7 +285,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="section-testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -365,7 +382,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="section-pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -400,7 +417,7 @@
                   <span></span>
                 </li>
               </ul>
-              <a href="#" class="btn btn-full">Start eating well</a>
+              <a href="#section-cta" class="btn btn-full">Start eating well</a>
             </div>
 
             <div class="pricing-plan best-value">
@@ -430,7 +447,7 @@
                   <span>Get access to latest recipes</span>
                 </li>
               </ul>
-              <a href="#" class="btn btn-full">Start eating well</a>
+              <a href="#section-cta" class="btn btn-full">Start eating well</a>
             </div>
           </div>
 
@@ -484,7 +501,7 @@
         </div>
       </section>
 
-      <section class="section-cta container">
+      <section class="section-cta container" id="section-cta">
         <div class="cta">
           <div class="cta-text-box">
             <h2 class="cta-heading heading-secondary">
